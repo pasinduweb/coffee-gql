@@ -22,7 +22,7 @@ type Mutation {
   removeCoffee(id: Float!): Coffee!
 }
 
-"""Create coffee input object tyle."""
+"""Create coffee input object style."""
 input CreateCoffeeInput {
   """A new coffee name"""
   name: String!
